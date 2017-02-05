@@ -1,0 +1,178 @@
+{
+"GeneralKnowledge" : 
+			[
+              {
+					"Q1": [
+                        {
+                          "Question": "Our skin, when exposed to excess sunlight, becomes dark. This is because our skin pigments called"
+                        },
+                        {
+                          "OptionA": "flavoxanthin"
+                        },
+                        {
+                          "OptionB": "melanin"
+                        },
+                        {
+                          "OptionC": "carotene"
+                        },
+                        {
+                          "OptionD": "Xanthophyll"
+                        },
+                        {
+                          "Answer": "melanin"
+                        },
+                        {
+                          "Num": "1"
+                        }
+					],
+					"Q2": [
+						{
+							"Question": "The co-operative credit societies have a"
+						},
+						{
+							"OptionA": "two-tier structure"
+						},
+						{
+							"OptionB": "three-tier structure"
+						},
+						{
+							"OptionC": "four-tier structure"
+						},
+						{
+							"OptionD": "five-tier structure"
+						},
+						{
+							"Answer": "three-tier structure"
+						},
+						{
+							"Num": "2"
+						}
+					],
+					"Q3": [
+						{
+							"Question": "The heat energy produced when the human body metabolises 1 gram of fat is"
+						},
+						{
+							"OptionA": "30 KJ"
+						},
+						{
+							"OptionB": "1 KJ"
+						},
+						{
+							"OptionC": "39 KJ"
+						},
+						{
+							"OptionD": "29 KJ"
+						},
+						{
+							"Answer": "39 KJ"
+						},
+						{
+							"Num": "3"
+						}
+					],
+					"Q4": [
+						{
+							"Question": "The 2002 Commonwealth Games were held in"
+						},
+						{
+							"OptionA": "Canada"
+						},
+						{
+							"OptionB": "UK"
+						},
+						{
+							"OptionC": "Australia"
+						},
+						{
+							"OptionD": "Malaysia"
+						},
+						{
+							"Answer": "UK"
+						},
+						{
+							"Num": "4"
+						}
+					],
+					"Q5": [
+						{
+							"Question": "Shankracharya was the founder of"
+						},
+						{
+							"OptionA": "Buddhism"
+						},
+						{
+							"OptionB": "Jainism"
+						},
+						{
+							"OptionC": "Arya Samaj"
+						},
+						{
+							"OptionD": "Advaitic philosophy"
+						},
+						{
+							"Answer": "Advaitic philosophy"
+						},
+						{
+							"Num": "5"
+						}
+					]
+            }
+			],
+
+"CProgramming" : 
+			[
+				{
+					"Q1" : [
+				{"Question" : "Which of the following function is used to find the first occurrence of a given string in another string?"},
+				{"OptionA"  : "strchr()"},
+				{"OptionB"  : "strrchr()"},
+				{"OptionC"  : "strstr()"},
+				{"OptionD"  : "strnset()"},
+				{"Answer"   : "strstr()"},
+				{"Num"      : "1"}
+				]},
+				{"Q2" :
+				[
+					{"Question" : "The library function used to find the last occurrence of a character in a string is"},
+					{"OptionA"  : "strnstr()"},
+					{"OptionB"  : "laststr()"},
+					{"OptionC"  : "strrchr()"},
+					{"OptionD"  : "strstr()"},
+					{"Answer"   : "strrchr()"},
+					{"Num"      : "2"}
+				]},
+				{"Q3" :
+				[
+                  {"Question" : "1010101010101010 can be stored in which data-type"},
+					{"OptionA"  : "int"},
+					{"OptionB"  : "long int"},
+					{"OptionC"  : "long long int"},
+					{"OptionD"  : "unsigned long long int"},
+					{"Answer"   : "long long int"},
+					{"Num"      : "3"}
+				]},
+				{"Q4" :
+				[
+				{"Question" : "If the two strings are identical, then strcmp() function returns"},
+				{"OptionA"  : "-1"},
+				{"OptionB"  : "0"},
+				{"OptionC"  : "1"},
+				{"OptionD"  : "Yes"},
+				{"Answer"   : "1"},
+				{"Num"      : "4"}
+				]},
+				{"Q5" :
+				[
+					{"Question" : "Which of the following function sets first n characters of a string to a given character?"},
+					{"OptionA"  : "strinit()"},
+					{"OptionB"  : "strnset()"},
+					{"OptionC"  : "strset()"},
+					{"OptionD"  : "strcset()"},
+					{"Answer"   : "strnset()"},
+					{"Num"      : "5"}
+				]}
+
+			]
+
+}
