@@ -46,22 +46,12 @@ public class QuizGame extends AppCompatActivity implements View.OnClickListener 
     ArrayList<String> answers = new ArrayList<>();
 
 
-
-
-
     public void startCounter() {
         CountDownTimer myCountDown = new CountDownTimer(61000, 1000) {
             public void onTick(long millisUntilFinished) {
                 //update the UI with the new count
                 counter.setText((millisUntilFinished)/1000-1+"s remaining");
-
-
-
-
-
-
             }
-
             public void onFinish() {
                 //start the activity
                 qn++;
@@ -73,11 +63,7 @@ public class QuizGame extends AppCompatActivity implements View.OnClickListener 
                     c.putExtra("SCORE",score+"");
                     startActivity(c);
                 }
-
-
-
             }
-
         };
 //start the countDown
         myCountDown.start();
@@ -85,12 +71,7 @@ public class QuizGame extends AppCompatActivity implements View.OnClickListener 
     public void getcheckedRadioButton(){
          radiovalue = ((RadioButton)findViewById(rg.getCheckedRadioButtonId())).getText().toString();
          temp.setText(radiovalue);
-
-
-
     }
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -120,21 +101,16 @@ public class QuizGame extends AppCompatActivity implements View.OnClickListener 
         convertToJSONData(completeQuiz);
         setter();
 
-
-
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-
                 if(radiovalue.equals(answers.get(qn))){
                     score+=10;
-
                 }
                 qn++;
                 if(qn<5){
                     setter();
+                    startCounter();
                 }
                 else {
                     Intent c = new Intent(QuizGame.this, ScorePage.class);
@@ -143,18 +119,6 @@ public class QuizGame extends AppCompatActivity implements View.OnClickListener 
                 }
             }
         });
-
-
-
-
-
-            startCounter();
-
-
-
-
-
-
     }
 
 
@@ -283,7 +247,6 @@ public class QuizGame extends AppCompatActivity implements View.OnClickListener 
         return returnString.toString();
     }
 
-
     public void setter(){
 
         textView4.setText(questions.get(qn));
@@ -294,14 +257,5 @@ public class QuizGame extends AppCompatActivity implements View.OnClickListener 
         option2.setText(ops.get(1));
         option3.setText(ops.get(2));
         option4.setText(ops.get(3));
-
-
-
-
     }
-
-
-
-
-
 }

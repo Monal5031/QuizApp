@@ -15,9 +15,6 @@ public class LevelPage extends AppCompatActivity implements View.OnClickListener
     Button GeneralKnowledge ;
 
     TextView tvName ;
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,10 +31,6 @@ public class LevelPage extends AppCompatActivity implements View.OnClickListener
 
 
         tvName.setText("Hi "+name+",");
-
-
-
-
     }
 
     @Override
@@ -64,13 +57,9 @@ public class LevelPage extends AppCompatActivity implements View.OnClickListener
             JSONArray  generalknowledge = mainObject.getJSONArray("GeneralKnowledge");
             for (int i = 0 ; i<generalknowledge.length() ; i++){
                 JSONObject currentObject = generalknowledge.getJSONObject(i);
-
-
             }
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
-
     }
 }
