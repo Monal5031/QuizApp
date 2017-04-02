@@ -1,3 +1,4 @@
+Won 1st prize in Hackathon for this app.
 # QuizApp
 Android App for Quiz
 
