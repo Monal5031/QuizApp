@@ -1,5 +1,4 @@
 package com.example.shivam.quizapp;
-
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,6 +31,7 @@ public class LevelPage extends AppCompatActivity implements View.OnClickListener
 
         tvName.setText("Hi "+name+",");
     }
+    // This is simple comment
 
     @Override
     public void onClick(View v) {
