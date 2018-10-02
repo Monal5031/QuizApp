@@ -50,6 +50,7 @@ public class LevelPage extends AppCompatActivity implements View.OnClickListener
         startActivity(i);
 
     }
+    
     public void readGk(String s){
 
         try {

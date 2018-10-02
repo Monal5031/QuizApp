@@ -72,6 +72,7 @@ public class QuizGame extends AppCompatActivity implements View.OnClickListener 
          radiovalue = ((RadioButton)findViewById(rg.getCheckedRadioButtonId())).getText().toString();
          temp.setText(radiovalue);
     }
+    //
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
